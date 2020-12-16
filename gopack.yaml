@@ -1,0 +1,11 @@
+name: music
+version: 0.0.1
+author: ggdream
+description: fetch music
+repository: github.com/ggdream/music
+env: go1.15.5-linux/amd64
+target:
+  - linux/amd64
+scripts:
+  test: go test ./...
+packages: {}
